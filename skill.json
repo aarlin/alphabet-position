@@ -1,0 +1,75 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Alexa will tell you if you a letter and ask you you tell to her the position of the letter in the English alphabet",
+          "examplePhrases": [
+            "Alexa open alphabet positon",
+            "",
+            "Alexa ask alphabet position to start a game"
+          ],
+          "keywords": [
+            "alphabet",
+            "letter",
+            "position"
+          ],
+          "name": "Alphabet Position",
+          "description": "Alexa will tell you a letter. Your job is to tell her the position of the letter in the alphabet. \nAlexa will tell you if you need to guess higher or lower. She will also tell you how many times you have played.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Start the game, Alexa will tell you a letter. \nTell her the position of the letter in the English alphabet.\nAlexa will help you to find if it is lower or higher.\n\nEx. \u0027z\u0027 is position 26, \u0027a\u0027 is position 1",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:357866081018:function:251749a5-5a59-416b-98ed-88edab028ce9:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:357866081018:function:251749a5-5a59-416b-98ed-88edab028ce9:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:357866081018:function:251749a5-5a59-416b-98ed-88edab028ce9:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:357866081018:function:251749a5-5a59-416b-98ed-88edab028ce9:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
